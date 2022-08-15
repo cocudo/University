@@ -2,7 +2,7 @@
 
 namespace universityApiBackend.Models.DataModels
 {
-    public class Curso
+    public class Curso : BaseEntity
     {
         public enum Niveles  {Basico = 0, Intermedio = 1, Avanzado = 2};
 
